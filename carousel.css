@@ -1,0 +1,276 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background: #d6d6d6;
+  background-image: url('images/bg-point.png');
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: tahoma;
+}
+
+.glyphicon.glyphicon-ok {
+	font-size: 30px;
+	color: #F00;
+}
+
+.titlebar {
+	
+}
+.carousel-indicators {
+	margin-bottom: 18px;
+}
+
+.tit_bar {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	font-family: tahoma;
+	font-size: 30px;
+	background-color: #bdbdc6;
+	margin: -55px -15px 0px 10px;
+	padding: 10px;
+	color: #000;
+}
+
+.barb {
+	font-family: tahoma;
+	font-size: 30px;
+	background-color: #bdbdc6;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-bottom: 0px;
+	padding: 10px;
+	border-top-right-radius: 85px 45px;
+	color: #000;
+	padding-left: 15px;
+	}
+
+.kolonki {	
+	background-color: #e7e7e6;
+}
+	
+.kolonki1 {
+	background-color: #BDBDC6;
+	margin-top: -60px;
+	padding-top: 30px;
+	color: #000;
+}
+
+.kolonki2 {
+	background-color: #e7e7e6;
+	height: 210px;
+}
+.kolonki2 p{
+	margin-left: -5px;
+	padding: 12px 0 6px 6px;
+	}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-wrapper .navbar {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #949494;
+}
+.carousel-inner > .item > img {
+  margin: auto;
+  top: 0;
+  left: 0;
+  width: 1000px;
+  height: 500px;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-md-3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-md-3 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+	opacity: 0.8;
+  }
+  .navbar-wrapper .container {
+    padding-left:  15px;
+    padding-right: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-left:  0;
+    padding-right: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+
+  }
+
+}
+
+.lead {
+	color: #999;
+	}
+.accordion {
+	width: 480px;
+	border-bottom: solid 1px #c4c4c4;
+}
+.accordion h3 {
+	background: #e9e7e7 url(images/arrow-square.gif) no-repeat right -51px;
+	padding: 7px 15px;
+	margin: 0;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	border: solid 1px #c4c4c4;
+	border-bottom: none;
+	cursor: pointer;
+}
+.accordion h3:hover {
+	background-color: #e3e2e2;
+}
+.accordion h3.active {
+	background-position: right 5px;
+}
+.accordion p {
+	background: #f7f7f7;
+	margin: 0;
+	padding:  10px 15px 20px;
+	border-left: solid 1px #c4c4c4;
+	border-right: solid 1px #c4c4c4;
+}
+.modal-dialog.modal-lg {
+width: 850px;
+}
+.modal-body table > tbody > tr > td {
+	font-size: 10px;
+	}
+.models {
+	background: #F7F7F7;
+	border-left: 1px solid #DDD;
+	border-right: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+}
+.nav-tabs li.active > a {
+	background: #F7F7F7;
+	}
+	
+.col-sm-6 h3 {
+	padding-top: 60px;
+	}
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
