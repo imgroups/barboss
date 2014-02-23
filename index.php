@@ -25,51 +25,15 @@
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
+	<script src="//api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+	
 
 	</head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-
-    <div class="navbar-wrapper">
-      <div class="container kolonki">
-
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Мотобуксировщики Barboss</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Преимущества</a></li>
-                <li><a href="#about">Модели</a></li>
-                <li><a href="#contact">Зачем нужен?</a></li>
-				<li><a href="#about">Вопросы и ответы</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Купить<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-</div>
-      </div>
-
+<div class="bg_top">
+<div class="container">
 <div id="Carousel" class="carousel slide">
         <ol class="carousel-indicators">
             <li data-target="Carousel" data-slide-to="0" class="active"></li>
@@ -110,40 +74,41 @@
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
-
+</div>
+</div>
 <div class="container marketing kolonki1">
 	  		<div class="row">
 				<div class="col-md-6 col-md-offset-3"><center><h1 class="tit_bar">Мотобуксировщики Baltmotors Barboss</center></div>
 			</div>
       <div class="row">
 
-		<div class="col-md-3">
+		<div class="col-md-2 col-md-offset-2">
           <img src="images/bm_motobarboss_rybak_1.png" class="img-circle">
-          <h4>Быстро преодолеваете расстояния <br>до места ловли</h2>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-md-3">
+          <h4 class="gen_adv">Быстро преодолеваете расстояния <br>до места ловли</h2>
+        </div>
+        <div class="col-md-2">
           <img src="images/bm_motobarboss_rybak_2.png" class="img-circle">
-         <h4>Легко перевозите сняряжение, улов, снасти <br>(до 250 кг)</h4>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-md-3">
+         <h4 class="gen_adv">Легко перевозите сняряжение, улов, снасти <br>(до 250 кг)</h4>
+        </div>
+        <div class="col-md-2">
           <img src="images/bm_motobarboss_rybak_3.png" class="img-circle">
-          <h4>Перемещайтесь компанией от 2 человек <br>(с помощью саней*)</h4>
-        </div><!-- /.col-lg-4 -->
-		<div class="col-md-3">
+          <h4 class="gen_adv">Перемещайтесь компанией от 2 человек <br>(с помощью саней*)</h4>
+        </div>
+		<div class="col-md-2">
           <img src="images/bm_motobarboss_rybak_4.png" class="img-circle">
-          <h4>Комфортно передвигайтесь по снегу, льду, пересеченной местности</h4>
-        </div><!-- /.col-lg-4 -->
+          <h4 class="gen_adv">Комфортно передвигайтесь по снегу, льду, пересеченной местности</h4>
+        </div>
       </div><!-- /.row -->
 	  </div>
 
 
 <div class="container kolonki">
-		<div class="row">
+		<div class="row" style="margin-top: 15px;">
 			<div class="col-md-7" width="640">
 			<div class="flex-video widescreen"><iframe src="//www.youtube.com/embed/qR96HUzo3Kw" frameborder="0" allowfullscreen=""></iframe></div>
 			</div>
 			<div class="col-md-5">
-				<h1 class="barb">Увлечение не для неженок</h1>
+				<h1 class="barb hobby">Увлечение не для неженок</h1>
 			<p style="color:#000; font-size: 14px;">
 			Зимняя охота и подледная рыбалка — увлечение не для неженок. Мороз и непроходимый снег сурово встречают смельчаков, которым хватило храбрости бросить вызов дикой природе. И без специальной техники это испытание и вовсе было бы почти не выполнимым. В передвижении по заснеженным просторам просто незаменимыми стали мотобуксировщики, которые с 2013 года выпускает компания Baltmotors. Езда на них напоминает езду на собаках в упряжке -  человек располагается в прицепных санях, которые тянет буксировщик. <a href="#">Мотособаки обладают массой преимуществ</a>, которые сделали их столь популярными. Вместо того, чтобы рыбачить у берега, появляется возможность добраться по льду подальше от прибрежной линии. Более того, в случае необходимости, у вас появляется возможность оперативно передвигаться от одного места рыбалки к другому по пути движения косяка рыб. Мотобуксировщики собираются в Калининграде и продаются в <a href="http://baltmotors.ru/dealers/" target="_new">дилерской сети Baltmotors</a>.</p>
 			</div>
@@ -170,21 +135,21 @@
 <div class="container kolonki">
 	<h1 class="barb" style="background-color: #fbb820;">Преимущества мотособак Baltmotors Barboss</h1>
 	<div class="row">
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">простая и надежная конструкция</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">привлекательная цена</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">оптимальный вес</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">надежные двигатели HONDA и RATO</span></div>
+		<div class="col-md-3 adv"><span class="adv_num">1</span><div class="advantage">Простая и надежная конструкция</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">2</span><div class="advantage">Привлекательная цена</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">3</span><div class="advantage">Оптимальный вес</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">4</span><div class="advantage">Надежные двигатели HONDA и RATO</div></div>
 	</div>
 	<div class="row">	
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">эргономичность</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">объемный багажный отсек с легким креплением груза</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">складывающаяся ручка облегчает транспортировку</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">серийное заводское производство</span></div>
+		<div class="col-md-3 adv"><span class="adv_num">5</span><div class="advantage">Эргономичность</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">6</span><div class="advantage">Объемный багажный отсек с легким креплением груза</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">7</span><div class="advantage">Складывающаяся ручка облегчает транспортировку</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">8</span><div class="advantage">Серийное заводское производство</div></div>
 	</div>
 	<div class="row">	
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">доступность запчастей и сервисного обслуживания</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">гарантия 1 год</span></div>
-		<div class="col-md-3"><span class="glyphicon glyphicon-ok"></span><span class="advantage">всесезонное использование</span></div>
+		<div class="col-md-3 adv"><span class="adv_num">9</span><div class="advantage">Доступность запчастей и сервисного обслуживания</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">10</span><div class="advantage">Гарантия 1 год</div></div>
+		<div class="col-md-3 adv"><span class="adv_num">11</span><div class="advantage">Всесезонное использование</div></div>
 	</div>
 </div>
 	  
@@ -210,7 +175,7 @@
 		<p>Простой, надежный и самый доступный на российском рынке мотобуксировщик.Он создан на каркасной стальной раме, оснащен надежными двигателями Rato или Honda мощностью 6,5 л.с. с редукторами.</p>
 		<p><B>Mini</b> - самый компактный в линейке мотобуксировщиков Baltmotors, его габаритные размеры 1200×400×600 мм (ширина цельной гусеницы - 380 мм), вес всего 79 кг. Благодаря этому его удобно транспортировать – без проблем помещается в салон легкового автомобиля (на заднее сиденье седана) или багажник универсала или хэтчбека.</p>
 		<p><B>Barboss Mini</b> легок в управлении, способен перемещать по снегу 2-х человек, передвигаясь со скоростью до 20 км/ч.</p>	
-		<p><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Цена: 38 990 руб</a></p>
+		<p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal2">Цена: 38 990 руб</a>&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Купить</a></p>
 		</div>
 	</div>
   </div>
@@ -221,7 +186,7 @@
 		<div class="col-sm-6"><h3>Мотобуксировщик Compact R7/H7, R9/H9</h3>
 		<p>Мотобуксировщик Barboss Compact – незаменимый помощник для любителей рыбалки и охоты, а также прекрасная возможность интересно и весело провести время людям, предпочитающим  активный отдых в зимний период. Благодаря цельной гусенице шириной 500 мм (на 120 мм шире гусеницы «младшего собрата» Mini)  Сompact с легкостью преодолевает более глубокий и рыхлый снег. Комплектуется надежными двигателями Rato или Honda мощностью 6,5 л.с. с редукторами. Его габаритные размеры 1200х550х650 мм. Мотобуксировщик обладает мягкой независимой подвеской, позволяющей плавно двигаться по неровностям и ледяным торосам.</p>
 		<p>Конструкция рамы защищает двигатель, имеет багажный отсек, позволяющий перевозить поклажу без дополнительного крепления. Транспортируется в багажнике универсала или хэтчбека.</p>
-		<p><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Цена: 41 310 руб</a></p>
+		<p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal2">Цена: 41 310 руб</a>&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Купить</a></p>
 		</div>
 	</div>
   
@@ -233,7 +198,7 @@
 		<p>Простой, надежный и самый доступный на российском рынке мотобуксировщик.Он создан на каркасной стальной раме, оснащен надежными двигателями Rato или Honda мощностью 6,5 л.с. с редукторами.</p>
 		<p><B>Mini</b> - самый компактный в линейке мотобуксировщиков Baltmotors, его габаритные размеры 1200×400×600 мм (ширина цельной гусеницы - 380 мм), вес всего 79 кг. Благодаря этому его удобно транспортировать – без проблем помещается в салон легкового автомобиля (на заднее сиденье седана) или багажник универсала или хэтчбека.</p>
 		<p><B>Barboss Mini</b> легок в управлении, способен перемещать по снегу 2-х человек, передвигаясь со скоростью до 20 км/ч.</p>
-		<p><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Цена: 49 000 руб</a></p>
+		<p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal2">Цена: 49 000 руб</a>&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Купить</a></p>
 		</div>
 		</div>
   </div>
@@ -244,7 +209,10 @@
 		<p>Простой, надежный и самый доступный на российском рынке мотобуксировщик.Он создан на каркасной стальной раме, оснащен надежными двигателями Rato или Honda мощностью 6,5 л.с. с редукторами.</p>
 		<p><B>Mini</b> - самый компактный в линейке мотобуксировщиков Baltmotors, его габаритные размеры 1200×400×600 мм (ширина цельной гусеницы - 380 мм), вес всего 79 кг. Благодаря этому его удобно транспортировать – без проблем помещается в салон легкового автомобиля (на заднее сиденье седана) или багажник универсала или хэтчбека.</p>
 		<p><B>Barboss Mini</b> легок в управлении, способен перемещать по снегу 2-х человек, передвигаясь со скоростью до 20 км/ч.</p>
-		<p><a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Цена: 49 000 руб</a></p>
+		<p><a href="#" class="btn btn-default" data-toggle="modal" data-target="#myModal1">Технические характеристики</a>&nbsp;&nbsp;
+		<a href="#" class="btn btn-warning" data-toggle="modal" data-target="#myModal2">Цена: 49 000 руб</a>
+		&nbsp;&nbsp;<a href="#" class="btn btn-danger" data-toggle="modal" data-target="#myModal2">Купить</a>
+		</p>
 		</div>
 		</div>
   </div>
@@ -413,6 +381,32 @@
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
+<div class="container kolonki">
+	<script type="text/javascript">
+        ymaps.ready(function () {
+            var map = new ymaps.Map('YMapsID', {
+                center: [55.753559, 37.609218],
+                zoom: 9,
+                type: 'yandex#map',
+                behaviors: ['default']
+            });
+			
+			map.controls.add('zoomControl', { left: 5, top: 5 });
+			
+            new RegionSelector(map, data, $('#regions'), $('#cities'));
+        });
+	</script>
+<h1 class="barb">Мотобуксировщик в Вашем регионе:</h1>
+            <div class="row">
+				<div class="col-md-12">
+					<div class="well">
+                    <select id="regions" class="btn btn-primary"></select>
+                    <select id="cities" class="btn btn-primary"></select>
+					</div>
+					<div id="YMapsID"></div>
+				</div>
+            </div>
+  </div>
 	  
 <div class="container kolonki">
 <h1 class="barb">Вопросы и ответы!</h2>
@@ -511,6 +505,11 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/holder.js"></script>
-	
+
+	<script src="region-selector/region-selector.js" type="text/javascript"></script>
+    <script src="region-selector/data.js" type="text/javascript"></script>
+    <script src="region-selector/multi-geocoder.js" type="text/javascript"></script>
+
   </body>
-</html>
+
+  </html>

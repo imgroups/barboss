@@ -38,7 +38,7 @@ ptp.onCityChange = function (e) {
         self.loadCityBounds(city, function (bounds) {
             self._map.setBounds(city.bounds = bounds);
             self.showCityPoints(city);
-        });
+			});
     }
 };
 

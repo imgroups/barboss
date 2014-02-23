@@ -24,6 +24,24 @@ font-family: tahoma;
 .carousel-indicators {
 	margin-bottom: 18px;
 }
+.carousel-indicators .active {
+	background-color: #FBB920;
+}
+
+.btn-default {
+	color: #000000;
+	background-color: #bdbdbd;
+}
+
+.btn-warning {
+	color: #000000;
+	background-color: #fbb920;
+}
+
+.bg_top {
+	background-color: #94949E;
+	height: 500px;
+}
 
 .tit_bar {
 	border-top-right-radius: 15px;
@@ -55,11 +73,17 @@ font-family: tahoma;
 	
 .kolonki1 {
 	background-color: #BDBDC6;
-	margin-top: -60px;
 	padding-top: 30px;
 	color: #000;
 }
-
+#YMapsID {
+            width: 100%;
+            height: 520px;
+			margin-top: -15px;
+        }
+.hero-unit {
+            background-color: #FFF;
+        }
 .kolonki2 {
 	background-color: #e7e7e6;
 	height: 210px;
@@ -201,6 +225,43 @@ font-family: tahoma;
   }
 
 }
+.img-circle {
+	padding-left: 15px;
+}
+.gen_adv {
+	font-size: 17px;
+	text-align: center;
+	}
+.map {
+	height: 300px;
+	width: 100%;
+	background-color: #ccc;
+}
+
+.hobby {
+	position: relative;
+	top: -20px;
+}
+
+.adv {
+	margin-top: 5px;
+}
+.advantage {
+	padding-left: 50px;
+	padding-top: 7px;
+	font-size: 15px;
+	border-top: 2px solid #000;
+}
+.adv_num {
+	background-image: url('pic/adv_num.png');
+	height: 58px;
+	width: 41px;
+	font-size: 27px;
+	color: #FFF;
+	padding-top: 6px;
+	float: left;
+	text-align: center;
+}
 
 .lead {
 	color: #999;
@@ -273,4 +334,6 @@ width: 850px;
 }
 @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
   .flex-video { padding-top: 0; }
+  
+
 }
