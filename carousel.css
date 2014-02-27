@@ -30,17 +30,28 @@ font-family: tahoma;
 
 .btn-default {
 	color: #000000;
-	background-color: #bdbdbd;
+	background-color: #BDBDC6;
 }
+.btn-default:hover {
+	color: #000000;
+	background-color: #C7C7D3;
+	}
 
-.btn-warning {
+.btn-warning, .btn-price {
+	color: #000000;
+	background-color: #fbb920;
+}
+.btn-warning:focus {
+	color: #000000;
+}
+.btn-warning:hover {
 	color: #000000;
 	background-color: #fbb920;
 }
 
 .bg_top {
 	background-color: #94949E;
-	height: 500px;
+	height: 554px;
 }
 
 .tit_bar {
@@ -48,10 +59,11 @@ font-family: tahoma;
 	border-top-left-radius: 15px;
 	font-family: tahoma;
 	font-size: 30px;
-	background-color: #bdbdc6;
-	margin: -55px -15px 0px 10px;
+	margin: -55px 0px 0px 0px;
 	padding: 10px;
 	color: #000;
+	width: 780px;
+	background-color: #BDBDC6;
 }
 
 .barb {
@@ -65,6 +77,8 @@ font-family: tahoma;
 	border-top-right-radius: 85px 45px;
 	color: #000;
 	padding-left: 15px;
+	text-shadow: 2px 2px 5px rgba(139, 139, 139, 0.6);
+	margin-bottom: 15px;
 	}
 
 .kolonki {	
@@ -76,6 +90,20 @@ font-family: tahoma;
 	padding-top: 30px;
 	color: #000;
 }
+
+.kolonki li.active > a, .kolonki li.active > a:hover{
+	color: #FBB920;
+	background: #F7F7F7;
+}
+
+.kolonki li a, .kolonki li a:hover{
+	color: #818181;
+	}
+
+.descr {
+	height: 270px;
+}
+
 #YMapsID {
             width: 100%;
             height: 520px;
@@ -93,6 +121,110 @@ font-family: tahoma;
 	padding: 12px 0 6px 6px;
 	}
 
+	
+.footer {
+	font-family: tahoma;
+	background-color: #9C9C9C;
+	height: 285px;
+	border-bottom: 15px solid #CCC;
+	background-repeat: repeat-x;
+	background-image: url('images/footer/footer_bg.png');
+	padding-top: 10px;
+}
+
+.footer li {
+	list-style: none;
+	margin-left: -35px;
+	font-size: 18px;
+}
+.footer-kontakt li {
+	margin-bottom: 10px;
+}
+.footer li a{
+	color: #000;
+}
+.footer-menu li {
+	border-bottom: 2px solid #B3B3B3;
+	width: 150px;
+}
+.footer-menu li:hover {
+	border-bottom: 2px solid #FBB812;
+}
+.footer-menu li:hover a {
+	text-decoration: none;
+}
+.footer h2 {
+	color: #505050;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.footer img {
+	margin: 3px;
+	background: #DDD;
+	margin-top: 20px;
+}
+
+.footer span {
+	font-size: 15px;
+	float: left;
+}
+
+.footer img:hover {
+	background-color: #FBB812;
+	}
+
+.footer-map {
+	background-image: url('images/footer/footer_mapGrey.png');
+	width: 15px;
+	height: 17px;
+	float: left;
+	margin-left: 10px;
+}
+
+.footer-map:hover {
+	background-image: url('images/footer/footer_mapOrang.png');
+}
+
+.footer-kontakt {
+	float: left;
+	padding: 0 20px 0 42px;
+	width: 380px;
+	}
+.footer-menu {
+	float: left;
+	padding: 0 20px 0 20px;
+	width: 380px;
+	background-image: url('images/footer/footer_lineMidle.png');
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.footer-comm {
+	float: left;
+	padding: 0 20px 0 20px;
+	width: 380px;
+	background-image: url('images/footer/footer_lineMidle.png');
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.footer-soc {}
+.footer-li {
+	margin-top: -17px;
+	margin-left: -4px;
+}
+.footer-cop {
+	font-size: 10px;
+}
+.footer-cop p{
+	text-align: left;
+}
+
+.col-sm-6 h3 {
+	padding-top: 15px !important;
+	font-size: 23px;
+	padding-bottom: 45px;
+	font-weight: bold;
+}	
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
@@ -121,8 +253,9 @@ font-family: tahoma;
 
 /* Carousel base class */
 .carousel {
-  height: 500px;
+  height: 554px;
   margin-bottom: 60px;
+  width: 1170px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -131,15 +264,15 @@ font-family: tahoma;
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 500px;
+  height: 554px;
   background-color: #949494;
 }
 .carousel-inner > .item > img {
   margin: auto;
   top: 0;
   left: 0;
-  width: 1000px;
-  height: 500px;
+  width: 1170px;
+  height: 554px;
 }
 
 
@@ -226,7 +359,10 @@ font-family: tahoma;
 
 }
 .img-circle {
-	padding-left: 15px;
+	margin-left: 25px;
+	width: 120px;
+	height: 120px;
+	border-radius: 0;
 }
 .gen_adv {
 	font-size: 17px;
@@ -241,26 +377,34 @@ font-family: tahoma;
 .hobby {
 	position: relative;
 	top: -20px;
+	margin-bottom: -10px;
 }
 
 .adv {
-	margin-top: 5px;
+	margin-bottom: 30px;
 }
 .advantage {
 	padding-left: 50px;
 	padding-top: 7px;
-	font-size: 15px;
-	border-top: 2px solid #000;
+	font-size: 13px;
+	/* border-top: 2px solid #BDBDC6; */
+	font-weight: bold;
+	color: #000;
 }
 .adv_num {
-	background-image: url('pic/adv_num.png');
-	height: 58px;
-	width: 41px;
-	font-size: 27px;
+	background-image: url('images/adv_num.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 35px;
+	font-size: 18px;
 	color: #FFF;
-	padding-top: 6px;
+	padding-top: 8px;
 	float: left;
 	text-align: center;
+	background-color: #FBB920;
+	position: relative;
+	top: 2px;
 }
 
 .lead {
@@ -271,7 +415,7 @@ font-family: tahoma;
 	border-bottom: solid 1px #c4c4c4;
 }
 .accordion h3 {
-	background: #e9e7e7 url(images/arrow-square.gif) no-repeat right -51px;
+	background: #e9e7e7 url('images/arrow-square.gif') no-repeat right -51px;
 	padding: 7px 15px;
 	margin: 0;
 	font: bold 120%/100% Arial, Helvetica, sans-serif;
@@ -316,7 +460,6 @@ width: 850px;
   padding-top: 25px;
   padding-bottom: 67.5%;
   height: 0;
-  margin-bottom: 16px;
   overflow: hidden;
 }
  
